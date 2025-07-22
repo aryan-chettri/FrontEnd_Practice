@@ -1,11 +1,14 @@
-
-
+import Chai from "./Chai"
 
 function App() {
-  
+
+  const username = "Chai and code";
 
   return (
-    <div><h1>Chai and Code With Vite</h1></div>
+     <>
+    <Chai />
+    <h3>I am learning React from : {username24}</h3>
+    </>
   )
 }
 
